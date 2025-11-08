@@ -20,7 +20,7 @@ const HeroSection = () => {
 
 
            <div className='opacity-0 animate-fade-in-delay-4'>
-            <a href="#project" className='cosmic-button py-3 '>
+            <a href="#projects" className='cosmic-button py-3 '>
                 View My Work
             </a>
            </div>

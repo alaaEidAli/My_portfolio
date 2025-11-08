@@ -3,11 +3,11 @@ import {cn} from "@/libs/utlis"
 import {X , Menu } from "lucide-react"
 const Navbar = () => {
   const navItems = [
-    {name: "Home" , href: "#home"},
+    {name: "Home" , href: "#hero"},
     {name: "About" , href: "#about"} ,
     {name: "Skills" , href: "#skills"},
-    {name: "Projects" , href: "#project"},
-    {name: "Contact" , href: "#Contact"}
+    {name: "Projects" , href: "#projects"},
+    {name: "Contact" , href: "#contact"}
   ]
  const [isScrolled  ,setIsScrolled] = useState(false)
  const [isMenuOpen , setIsMenuOpen] = useState(false)
