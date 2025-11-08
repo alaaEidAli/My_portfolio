@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
  import {Moon, Sun} from "lucide-react"
  import {cn} from "@/libs/utlis"
 const ThemeToggle = () => {
-    const [isDarkMode , setIsDarkMode ]= useState(false)
+    const [isDarkMode , setIsDarkMode ]= useState(true)
 
  useEffect( () =>{
   const storedTheme = localStorage.getItem("theme")
