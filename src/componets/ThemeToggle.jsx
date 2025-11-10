@@ -10,9 +10,14 @@ const ThemeToggle = () => {
         setIsDarkMode(true) ;
     document.documentElement.classList.add("dark")
      }
-     else{
+     else if(storedTheme === "light"){
         setIsDarkMode(false)
        document.documentElement.classList.remove("dark")
+     }
+     else{
+      setIsDarkMode(true)
+          document.documentElement.classList.add("dark")
+
      }
  } , [])
  

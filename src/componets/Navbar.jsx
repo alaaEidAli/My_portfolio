@@ -17,7 +17,7 @@ const Navbar = () => {
     }
 
     // for mobile navbar
-     isMenuOpen ? setIsMenuOpen(false) : setIsMenuOpen(true)     
+     isMenuOpen ? setIsMenuOpen(true) : setIsMenuOpen(false)     
 
 window.addEventListener('scroll' , HandleScroll)     
 return () =>window.removeEventListener('scroll' , HandleScroll)
